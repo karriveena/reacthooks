@@ -1,0 +1,23 @@
+.centered {
+    display:flex;
+    justify-content: center;
+   align-items: center;
+    height: 200px;
+    border: 3px solid rgb(0, 70, 128);
+    text-transform: capitalize;
+    
+};
+ .data{
+     text-transform: capitalize;
+    
+ }
+ p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  div:hover p {
+    display: block;
+  }
+  
